@@ -57,6 +57,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        warm: {
+          cream: "hsl(var(--warm-cream))",
+          orange: "hsl(var(--warm-orange))",
+          "orange-light": "hsl(var(--warm-orange-light))",
+          brown: "hsl(var(--warm-brown))",
+          "brown-light": "hsl(var(--warm-brown-light))",
+          gold: "hsl(var(--warm-gold))",
+        },
+      },
+      fontFamily: {
+        display: ['"Playfair Display"', 'serif'],
+        body: ['"Source Sans 3"', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
