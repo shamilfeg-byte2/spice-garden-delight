@@ -52,7 +52,7 @@ const ContactSection = () => (
             </div>
           </div>
           <Button asChild size="lg" className="bg-green-600 hover:bg-green-700 text-primary-foreground gap-2 px-8">
-            <a href={`https://wa.me/15551234567?text=${encodeURIComponent('Hi! I would like to place an order.')}`} target="_blank" rel="noopener noreferrer">
+            <a href={`https://wa.me/918086373873?text=${encodeURIComponent('Hi! I want a website like this.')}`} target="_blank" rel="noopener noreferrer">
               <MessageCircle className="w-5 h-5" /> Order via WhatsApp
             </a>
           </Button>

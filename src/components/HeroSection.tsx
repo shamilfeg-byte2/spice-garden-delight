@@ -42,9 +42,12 @@ const HeroSection = () => (
         <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-warm-orange-light text-base px-8 py-6">
           <a href="#menu">View Menu</a>
         </Button>
-        <Button asChild size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 text-base px-8 py-6">
+        <Button asChild size="lg" variant="outline" className="bg-transparent boder-white text-white hover:bg-white/20 hover:text-white">
+
           <a href="#reserve">Reserve a Table</a>
         </Button>
+        
+
       </motion.div>
     </div>
   </section>
